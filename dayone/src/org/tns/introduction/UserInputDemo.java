@@ -21,7 +21,7 @@ public class UserInputDemo {
 //		System.out.println("The Character is : " + chr);
 		
 //		System.out.println("Enter the String for str : ");                 // Taking String as input
-//		String str = s.next();                                          // s.next() Takes only one character
+//		String str = s.next();                                          // s.next() Takes only first word
 //		System.out.println("The string is : " + str);
 		
 		System.out.println("Enter the String for str2 : ");
