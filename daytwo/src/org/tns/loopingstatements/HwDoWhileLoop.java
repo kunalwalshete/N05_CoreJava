@@ -1,3 +1,4 @@
+// Question : to print how many digit in the given number using do while
 package org.tns.loopingstatements;
 
 import java.util.Scanner;

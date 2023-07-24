@@ -1,7 +1,7 @@
 // Program to demonstrate Do While Loop
 // same as while loop but it guarantee that it executes ones independent on condition it is false or true
 
-// question : to print how many digit in the given number using do while
+
 package org.tns.loopingstatements;
 
 import java.util.Scanner;
