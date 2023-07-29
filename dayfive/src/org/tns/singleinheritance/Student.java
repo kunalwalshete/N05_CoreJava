@@ -1,7 +1,7 @@
 package org.tns.singleinheritance;
 
 // Derived class (Child Class)
-public class Student extends Citizen   // student class (Child class)inheritate the properties of citizen class (Parent class)
+public class Student extends Citizen   // student class (Child class) inheritate the properties of citizen class (Parent class)
 {
 	
 	// Private data members

@@ -35,9 +35,6 @@ public class Citizen {
 				+ ", city=" + city + "]";
 	}
 	
-	
-	
-	
-	
+		
 	
 }
