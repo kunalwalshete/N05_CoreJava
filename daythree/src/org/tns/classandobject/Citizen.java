@@ -9,6 +9,9 @@ public class Citizen {
 	String gender;
 	String city;
 	
+	// Class is a template or blueprint for object which contain data member's, method's
+	// Object are any real world entity. It is a instance of a class // Each object have identity, behaviour and state
+	// Constructor are used to initialize object
 	// Default constructor ( same name as class || no parameters || no need to use of default)
 	// shortcut to create default constructor right click >> source >> superclass constructor
 	public Citizen() {

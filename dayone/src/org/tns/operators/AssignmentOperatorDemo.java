@@ -9,7 +9,7 @@ public class AssignmentOperatorDemo {
 		x+=y;                       // this means x = x + y  ::  x = 23 + 45  ::  x = 68
 		System.out.println(x);
 		
-		
+		//  =, +=, -=, *=, /=, %=   ... this are the different assignment operators
 
 	}
 

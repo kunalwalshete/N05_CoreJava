@@ -9,6 +9,8 @@ public class Sandwich {
 	String breadtype;
 	int noOfSlice;
 	
+	
+	// Method is a block of code that, when called, performs specific actions mentioned in it.
 	// Method declaration
 	public void display() {
 		System.out.println("BreadType : " + breadtype + "   No. Of slice : " + noOfSlice);
