@@ -42,7 +42,7 @@ public class ArrayProblem {
         	sum = sum +arr[i];
         }
         
-        System.out.println(sum);
+        //System.out.println(sum);
         for(int i=0; i<arr_size;i++) {
         	new_arr[i]=sum-arr[i];
         }
@@ -51,13 +51,7 @@ public class ArrayProblem {
         System.out.println("The elements of new array: ");
         for (int i = 0; i < arr_size; i++) {
             System.out.print(new_arr[i] + " ");
-    }
-        
-        
-        
-        
-		
-		
+        }		
 
 	}
 

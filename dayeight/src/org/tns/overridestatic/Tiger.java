@@ -6,10 +6,10 @@ public class Tiger extends Animal {
 		System.out.println("Eat : Child");
 	}
 	
-	static void run() {
-		//super.run();
-		// Is this method overriding ?
-		Animal.run();
-		System.out.println("Run : Child");
-	}	
+//	void run() {
+//		//super.run();
+//		// Is this method overriding ?
+//		Animal.run();
+//		System.out.println("Run : Child");
+//	}	
 }

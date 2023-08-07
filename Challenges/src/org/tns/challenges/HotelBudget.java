@@ -54,9 +54,6 @@ public class HotelBudget {
 		int rent = s.nextInt();
 		tariff(month,day,rent);
 		
-		
-		
-
 	}
 
 }
