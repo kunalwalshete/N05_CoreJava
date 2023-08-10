@@ -1,17 +1,13 @@
-/* Problem statement : You have been given an array of positive integers A1,A2,...,An 
- * with legnth N and you have to print an array of same legnth(N) where the values in the
- *  new array are the sum of every number in the array, except the number at that index.
+/*Question: Given an array nums of n integers where n > 1, return an array output such that output[i] 
+ * is equal to the product of all the elements of nums except nums[i].
 
-Input:
-The first line of input contains a single integer T denoting the number of test cases.
-Each test cases contain two lines.First line contains N, the length of the array and second line
- contains N space separated positive integers.
-*/
+Input:  [1,2,3,4]
+Output: [24,12,8,6]*/
 package org.tns.challenges;
 
 import java.util.Scanner;
 
-public class ArrayProblem {
+public class ArrayProblemMultiplication {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub\
@@ -36,15 +32,15 @@ public class ArrayProblem {
         System.out.println(" ");
             
          
-        int sum = 0;
+        int product = 1;
         int[] new_arr = new int[arr_size];
         for(int i=0; i<arr_size; i++) {
-        	sum = sum +arr[i];
+        	product = product * arr[i];
         }
         
         //System.out.println(sum);
         for(int i=0; i<arr_size;i++) {
-        	new_arr[i]=sum-arr[i];
+        	new_arr[i]= product/arr[i];
         }
         
         // Printing new array
