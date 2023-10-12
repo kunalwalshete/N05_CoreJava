@@ -24,7 +24,7 @@ public class UserInterface {
 		String beroType = s.nextLine();
 		
 		// initilising bero
-		Bero bero = null;
+		Bero bero;      // this is polymorphic behaviour of object
 		
 		// creating respective bero object based on bero type;
 		if(beroType.equals("Steel Bero")) {
@@ -32,7 +32,7 @@ public class UserInterface {
 			String beroColour = s.nextLine();
 			System.out.println("Enter the height of bero : ");
 			int beroHeight = s.nextInt();
-			bero = new SteelBero(beroType,beroColour,beroHeight);
+			bero = new SteelBero(beroType,beroColour,beroHeight);     // this is polymorphic behaviour of object
 			bero.calculatePrice();
 			double amount = bero.price - dis.calculateDiscount(bero);
 			System.out.println("Amount need to be paid is : "+amount);
@@ -43,7 +43,7 @@ public class UserInterface {
 			String beroColour = s.nextLine();
 			System.out.println("Enter the wood type for bero : ");
 			String woodType = s.nextLine();
-			bero = new WoodenBero(beroType,beroColour,woodType);
+			bero = new WoodenBero(beroType,beroColour,woodType);      // this is polymorphic behaviour of object
 			bero.calculatePrice();
 			double amount = bero.price - dis.calculateDiscount(bero);
 			System.out.println("Amount need to be paid is : "+amount);
